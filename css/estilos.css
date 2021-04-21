@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Josenfin Sans", sans-serif;
+}
+header {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+nav {
+  height: 16vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo a {
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #0276fe;
+}
+.menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+.menu ul li a {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+.menu ul li a :hover {
+  color: #0276fe;
+  transition: 0.3s;
+}
+.menu ul li.active a {
+  color: #0276fe;
+}
+.btn a {
+  border: 2px solid #000;
+  padding: 10px 32px;
+  border-radius: 50px;
+  color: #000;
+  text-transform: capitalize;
+}
+.btn a:hover {
+  border: 2px solid #0276fe;
+  background-color: #0276fe;
+  transition: 0.4s;
+  color: white;
+}
+.content {
+  padding: 75px;
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text h1 {
+  color: #000;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  line-height: 70px;
+  font-weight: 1000;
+}
+.text p {
+  color: #000;
+  margin-bottom: 35px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+.img {
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+}
+.btn2 {
+  color: white;
+  border: 2px solid #0276fe;
+  background-color: #0276fe;
+  padding: 10px 32px;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.social {
+  position: absolute;
+  left: 130px;
+  bottom: 0;
+}
+.social ul {
+  display: inline-flex;
+  margin: 45px;
+  text-align: center;
+}
+.social ul li {
+  list-style-type: none;
+  margin: 0px 10px;
+}
+.social ul li i {
+  font-size: 25px;
+  color: #000;
+}
+.social ul li i:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+  cursor: pointer;
+}
